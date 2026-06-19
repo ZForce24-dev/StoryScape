@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Recommendations | StoryScape</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h2>StoryScape</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="library.html">Library</a></li>
+            <li><a href="questionnaire.html">Questionnaire</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="page-content">
+	<section class="results">
+
+		<h1>Your Recommendations</h1>
+
+		<p class="results-intro">
+			Based on your answers, StoryScape found these adventures for you.
+		</p>
+
+		<!-- Top Recommendation -->
+		<div class="top-recommendation">
+
+			<img
+				id="top-image"
+				src="images/placeholder.jpg"
+				alt="Top Recommendation">
+
+			<div class="recommendation-info">
+
+				<h2 id="top-title">
+					Your Top Match
+				</h2>
+
+				<p id="top-media">
+					Media Type
+				</p>
+				<p id="top-match-percent" class="match-percent"></p>
+				<p id="top-description">
+					Recommendation description goes here.
+				</p>
+
+				<div class="recommendation-actions">
+
+					<button 
+						id="top-learn-more" 
+						class="results-btn">
+
+						Learn More
+					</button>
+
+			</div>
+
+			</div>
+
+		</div>
+
+		<!-- Secondary Recommendations -->
+		<div class="secondary-recommendations">
+
+			<div class="recommendation-card">
+
+				<img
+					id="second-image"
+					src="images/placeholder.jpg"
+					alt="Recommendation">
+
+				<h3 id="second-title">
+					Recommendation #2
+				</h3>
+				<p id="second-media">
+					Media Type
+				</p>
+				<p id="second-match-percent" class="match-percent"></p>
+					<p id="second-description">
+    					Recommendation description goes here.
+					</p>
+				<button
+   					id="second-learn-more"
+    				class="results-btn">
+
+					Learn More
+				</button>
+
+			</div>
+
+			<div class="recommendation-card">
+
+				<img
+					id="third-image"
+					src="images/placeholder.jpg"
+					alt="Recommendation">
+
+				<h3 id="third-title">
+					Recommendation #3
+				</h3>
+				<p id="third-media">
+					Media Type
+				</p>
+				<p id="third-match-percent" class="match-percent"></p>
+					<p id="third-description">
+    					Recommendation description goes here.
+					</p>
+				<button
+   					id="third-learn-more"
+    				class="results-btn">
+
+					Learn More
+				</button>
+
+			</div>
+
+		</div>
+
+		<!-- Why These Were Chosen -->
+		<div class="match-reasons">
+
+			<h2>Why These Were Chosen</h2>
+
+			<div id="user-preferences">
+			</div>
+
+		</div>
+
+		<div class="retake-section">
+
+			<a href="questionnaire.html"
+			   class="results-btn">
+
+				Retake Questionnaire
+
+			</a>
+
+		</div>
+
+	</section>
+
+	<footer>
+
+		<div class="footer-section">
+
+			<h3>StoryScape</h3>
+
+			<p>
+				Helping users discover books, movies,
+				television shows, anime, and video games
+				tailored to their interests.
+			</p>
+
+		</div>
+
+		<div class="footer-section">
+
+			<h3>Navigation</h3>
+
+			<p><a href="index.html">Home</a></p>
+
+			<p><a href="library.html">Library</a></p>
+
+			<p><a href="questionnaire.html">Questionnaire</a></p>
+
+			<p><a href="favorites.html">Favorites</a></p>
+
+		</div>
+
+		<div class="footer-section">
+
+			<h3>Project Information</h3>
+
+			<p>Created by Zach Shearin</p>
+
+			<p>GC 340 Final Project</p>
+
+		</div>
+		<p class="copyright">
+			© 2026 StoryScape | Created by Zach Shearin
+		</p>
+	</footer>
+
+	<script src="js/database.js"></script>
+	<script src="js/results.js"></script>
+</main>
+</body>
+</html>

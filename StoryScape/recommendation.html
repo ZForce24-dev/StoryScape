@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>StoryScape Recommendation</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h2>StoryScape</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="library.html">Library</a></li>
+            <li><a href="questionnaire.html">Questionnaire</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="recommendation-page">
+
+    <div class="recommendation-detail-card">
+
+        <img
+            id="recommendation-image"
+            src=""
+            alt="Recommendation">
+
+        <div class="recommendation-detail-info">
+
+            <h1 id="recommendation-title">
+                Title
+            </h1>
+
+            <p id="recommendation-media">
+                Media Type
+            </p>
+
+            <p id="recommendation-description">
+                Description
+            </p>
+
+            <h2>Why You'll Like This</h2>
+
+            <div id="recommendation-tags">
+            </div>
+            <button id="favorite-btn" class="favorite-btn">
+                ☆ Add to Favorites
+            </button>
+            <a href="results.html" class="results-btn">
+                Back to Results
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="similar-recommendations">
+
+        <h2>Similar Recommendations</h2>
+
+        <div class="similar-row" id="similar-row">
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+		<div class="footer-section">
+
+			<h3>StoryScape</h3>
+
+			<p>
+				Helping users discover books, movies,
+				television shows, anime, and video games
+				tailored to their interests.
+			</p>
+
+		</div>
+
+		<div class="footer-section">
+
+			<h3>Navigation</h3>
+
+			<p><a href="index.html">Home</a></p>
+
+            <p><a href="library.html">Library</a></p>
+
+			<p><a href="questionnaire.html">Questionnaire</a></p>
+
+			<p><a href="favorites.html">Favorites</a></p>
+
+		</div>
+
+		<div class="footer-section">
+
+			<h3>Project Information</h3>
+
+			<p>Created by Zach Shearin</p>
+
+			<p>GC 340 Final Project</p>
+		
+		</div>
+		<p class="copyright">
+			© 2026 StoryScape | Created by Zach Shearin
+		</p>
+	</footer>
+<script src="js/database.js"></script>
+<script src="js/recommendation.js"></script>
+<script src="js/results.js"></script>
+
+</body>
+
+</html>
