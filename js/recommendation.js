@@ -5,6 +5,23 @@ JSON.parse(
     )
 );
 
+const backButton =
+document.getElementById("back-btn");
+
+const userAnswers =
+JSON.parse(
+    localStorage.getItem("storyscapeAnswers")
+);
+
+if (!userAnswers) {
+
+    backButton.textContent =
+        "Fill Out Questionnaire";
+
+    backButton.href =
+        "questionnaire.html";
+}
+
 document.getElementById(
     "recommendation-title"
 ).textContent =
