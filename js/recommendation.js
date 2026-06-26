@@ -41,7 +41,7 @@ recommendation.tags.forEach(tagText => {
 const allRecommendations =
 JSON.parse(
     localStorage.getItem("allRecommendations")
-);
+) || recommendations;
 
 const similarRow =
 document.getElementById("similar-row");
