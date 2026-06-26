@@ -108,6 +108,9 @@ document.getElementById("question-title");
 const answersContainer =
 document.getElementById("answers-container");
 
+const progressText =
+document.getElementById("progress-text");
+
 function loadQuestion() {
 
     questionTitle.textContent =
@@ -124,6 +127,9 @@ function loadQuestion() {
     ((currentQuestion + 1) / totalQuestions) * 100;
 
 progressBar.style.width = progress + "%";
+
+progressText.textContent =
+    `Step ${currentQuestion + 1} of ${totalQuestions}`;
 
     answersContainer.innerHTML = "";
 
